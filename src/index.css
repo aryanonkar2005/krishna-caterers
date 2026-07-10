@@ -1,0 +1,224 @@
+/* 
+  KRISHNA CATERERS - LUXURY DESIGN SYSTEM
+  Vibrant Slate & Champagne Gold Palette
+*/
+
+:root {
+  /* Color System */
+  --bg-primary: #0A0D10;
+  --bg-secondary: #12171E;
+  --bg-tertiary: #19202A;
+  
+  --gold-primary: #D4AF37;
+  --gold-light: #F4DF4F;
+  --gold-dark: #AA8B2C;
+  --gold-accent: #C5A059;
+  
+  --text-primary: #F8F9FA;
+  --text-secondary: #A0AEC0;
+  --text-muted: #718096;
+  
+  --border-light: rgba(212, 175, 55, 0.15);
+  --border-medium: rgba(212, 175, 55, 0.3);
+  
+  --card-glass: rgba(18, 23, 30, 0.7);
+  --card-glass-hover: rgba(25, 32, 42, 0.95);
+  
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Shadows */
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.15);
+  --shadow-gold-hover: 0 10px 30px rgba(212, 175, 55, 0.3);
+  --shadow-dark: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+}
+
+/* Reset and Globals */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* Common Layout Elements */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+/* Visual Ornaments */
+.luxury-title {
+  text-align: center;
+  font-size: 2.75rem;
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+.luxury-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+  margin: 1rem auto 0 auto;
+}
+
+.luxury-title span {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--gold-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* Premium Buttons */
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+  color: #000;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  padding: 1rem 2.25rem;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold-hover);
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 100%);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-medium);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  padding: 0.95rem 2.15rem;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn-outline:hover {
+  background: rgba(212, 175, 55, 0.08);
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
+  transform: translateY(-2px);
+}
+
+/* Glass Cards */
+.glass-card {
+  background: var(--card-glass);
+  border: 1px solid var(--border-light);
+  padding: 2.5rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.glass-card:hover {
+  border-color: var(--border-medium);
+  background: var(--card-glass-hover);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-gold);
+}
+
+/* Custom Luxury Gradients & Accents */
+.gold-glow-text {
+  background: linear-gradient(135deg, #FFF 30%, var(--gold-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge-gold {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold-primary);
+  border: 1px solid var(--border-light);
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+  .luxury-title {
+    font-size: 2.25rem;
+  }
+  .container {
+    padding: 0 1.5rem;
+  }
+}
