@@ -21,7 +21,7 @@ const slides = [
     image: '/images/gala.jpeg',
     subtitle: 'COMPLETE EVENT MANAGEMENT',
     title: 'From Small Gatherings to Grand Events',
-    desc: 'Birthdays, weddings, engagements, corporate events, political rallies, poojas, religious gatherings, concerts, stage shows, and more — we plan, manage, and execute every detail from start to finish.',
+    desc: 'Weddings, engagements, anniversaries, birthday parties, poojas, religious gatherings, corporate events, stage shows and more — we plan, manage, and execute every detail from start to finish.',
   },
 ];
 
