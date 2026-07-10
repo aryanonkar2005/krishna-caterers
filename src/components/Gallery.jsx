@@ -18,8 +18,8 @@ export default function Gallery() {
     <section id="gallery" className="section" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <div className="container">
         <div className="luxury-title">
-          <span>PORTFOLIO OF DREAMS</span>
-          <h2>Our Breathtaking Setups</h2>
+          <span>Some of our completed setups</span>
+          <h2>Photo Gallery</h2>
         </div>
 
         {/* Grid Layout */}

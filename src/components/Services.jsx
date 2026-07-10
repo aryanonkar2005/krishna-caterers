@@ -116,8 +116,8 @@ export default function Services() {
     <section id="services" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         <div className="luxury-title">
-          <span>WHAT WE CRAFT</span>
-          <h2>Our Exquisite Services</h2>
+          <span>WHAT WE DO</span>
+          <h2>Our Services</h2>
         </div>
 
         <div 

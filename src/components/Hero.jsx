@@ -21,7 +21,7 @@ const slides = [
     image: '/images/gala.jpeg',
     subtitle: 'COMPLETE EVENT MANAGEMENT',
     title: 'From Small Gatherings to Grand Events',
-    desc: 'Birthdays, weddings, engagements, corporate events, political rallies, poojas, religious gatherings, kavi sammelans, concerts, stage shows, and more—we plan, manage, and execute every detail from start to finish.',
+    desc: 'Birthdays, weddings, engagements, corporate events, political rallies, poojas, religious gatherings, concerts, stage shows, and more — we plan, manage, and execute every detail from start to finish.',
   },
 ];
 
@@ -60,7 +60,7 @@ const slides = [
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundImage: `linear-gradient(to bottom, rgba(10, 13, 16, 0.4), rgba(10, 13, 16, 0.85)), url(${slide.image})`,
+            backgroundImage: `linear-gradient(to bottom, rgba(10, 13, 16, 0.5), rgba(10, 13, 16, 0.9)), url(${slide.image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             opacity: index === currentSlide ? 1 : 0,

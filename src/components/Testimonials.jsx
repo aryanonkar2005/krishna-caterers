@@ -54,8 +54,12 @@ const reviews = [
     <section id="testimonials" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         <div className="luxury-title">
-          <span>CLIENT APPRECIATION</span>
-          <h2>Words From Our Patrons</h2>
+          <span>
+            What Our Clients Say About Us
+          </span>
+          <h2>
+            Testimonials
+          </h2>
         </div>
 
         {/* Carousel Wrapper */}

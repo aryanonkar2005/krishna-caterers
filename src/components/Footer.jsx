@@ -44,8 +44,7 @@ export default function Footer() {
               Caterers, Tents & Events
             </span>
             <p style={{ fontSize: '0.9rem', lineHeight: '1.6' }}>
-              Crafting legacy celebrations, royal spaces, and award-winning culinary moments for premium weddings, anniversaries, and high-society milestones since 2004.
-            </p>
+Since 2004, we've been creating unforgettable weddings, corporate events, birthdays, poojas, political rallies, and celebrations with stunning décor, seamless planning, and exceptional catering.            </p>
           </div>
 
           {/* Quick Links */}
