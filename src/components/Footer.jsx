@@ -44,7 +44,7 @@ export default function Footer() {
               Caterers, Tents & Events
             </span>
             <p style={{ fontSize: '0.9rem', lineHeight: '1.6' }}>
-Since 2004, we've been creating unforgettable weddings, corporate events, birthdays, poojas, political rallies, and celebrations with stunning décor, seamless planning, and exceptional catering.            </p>
+Since 2004, we've been creating unforgettable weddings, corporate events, birthdays, poojas, religious festivals and celebrations with stunning décor, seamless planning, and exceptional catering.            </p>
           </div>
 
           {/* Quick Links */}
@@ -65,7 +65,7 @@ Since 2004, we've been creating unforgettable weddings, corporate events, birthd
               Office Address
             </h4>
             <p style={{ fontSize: '0.9rem', marginBottom: '0.75rem', color: 'var(--text-secondary)' }}>
-              Sector 91, Near Vinayak Hospital, Faridabad, India
+              Near Delhi Fitness Center, Tanki Road, Mithupur, Delhi
             </p>
             <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
               Primary Contact: +91 96679 57647
