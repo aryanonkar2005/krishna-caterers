@@ -138,7 +138,7 @@ export default function Contact() {
                 Office Address
               </span>
               <span style={{ color: '#FFF', fontSize: '1rem' }}>
-                Sector 91, Near Vinayak Hospital, Faridabad, India
+                Near Delhi Fitness Center, Tanki Road, Mithupur, Delhi
               </span>
             </div>
           </div>

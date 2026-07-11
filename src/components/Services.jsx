@@ -9,7 +9,7 @@ export default function Services() {
     subtitle: 'Delicious Food for Every Event',
     desc: 'Our menu can be customized to match your taste and your guests’ preferences.',
     details: [
-      'Veg & Non-Veg Menu',
+      'Veg Menu',
       'Live Food Counters',
       'Indian and Chinese Dishes and Snacks',
       'Desserts & Beverages',

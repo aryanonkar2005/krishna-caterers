@@ -187,10 +187,10 @@ export default function Navbar() {
             href="#contact"
             onClick={() => setIsMobileMenuOpen(false)}
             className="btn-gold"
-            style={{ justifyContent: 'center', width: '100%', marginLeft: '1.5rem', marginTop: '1rem' }}
+            style={{ justifyContent: 'center', width: '100%', marginTop: '1rem' }}
           >
             <PhoneCall size={16} />
-            Book Consultation
+            Book a Call
           </a>
         </div>
       )}
